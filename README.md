@@ -1,4 +1,4 @@
-# Joke Bot
+# Jᴏᴋᴇ Bᴏᴛ
 Telegram Bot to generate Random Jokes.
 
 # DEPLOY
