@@ -9,7 +9,7 @@ error_reporting(0);
 set_time_limit(0);
 
 flush();
-$API_KEY = 'Your bot token'; //Your token
+$API_KEY = $_ENV['BOT_TOKEN']; //Your token
 ##------------------------------##
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
@@ -44,6 +44,7 @@ $text = $message->text;
 $fromid = $update->callback_query->from->id;
 $username = $update->message->from->username;
 $chatid = $update->callback_query->message->chat->id;
+$START_MESSAGE = $_ENV['START_MESSAGE'];
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
