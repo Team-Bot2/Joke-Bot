@@ -57,8 +57,7 @@ if($text == '/joke'){
 $jok = json_decode(file_get_contents('https://sv443.net/jokeapi/v2/joke/Any?type=single'),true);
 $joke = $jok['joke'];
 $catg = $jok['category'];
-if ($msg == '/randomjoke')
-Bot('sendmessage',[
+bot('sendmessage',[
 'chat_id'=>$from_id,
 'text'=>"`$joke`
 
