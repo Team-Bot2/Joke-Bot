@@ -1,8 +1,8 @@
 <?php
 /*
-BY:- @BenchamXD
+BY:- @Disqualified_xD
 
-CHANNEL:- @IndusBots
+CHANNEL:- @Team_Bot_Update
 */
 error_reporting(0);
 
@@ -33,7 +33,7 @@ function bot($method,$datas=[]){
 	]);
 	}
 	
-//==============BENCHAM======================//
+//==============SHADOW======================//
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
 $message_id = $update->message->id;
