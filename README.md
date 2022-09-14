@@ -4,7 +4,7 @@ Telegram Bot to generate Random Jokes.
 # DEPLOY
 YOU CAN SIMPLY DEPLOY ON HEROKU BY CLICKING THE BUTTON BELOW
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Benchamxd/jokebot/tree/main)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Team-Bot2/Joke-Bot/tree/main)
 
 AFTER DEPLOY DO SET WEBHOOK BY ``api.telegram.org/bot<your bot token>/setwebhook?url=<Heroku site link>/bot.php``
 
@@ -20,7 +20,7 @@ AFTER DEPLOY DO SET WEBHOOK BY ``api.telegram.org/bot<your bot token>/setwebhook
 ``/joke - To Get the jokes``
 
 # HELP ME
-FOR ANY TYPE OF HELP OR ISSUES. YOU CAN CONTACT ME [HERE](https://telegram.me/induschats)
+FOR ANY TYPE OF HELP OR ISSUES. YOU CAN CONTACT ME [HERE](https://telegram.me/Piro_x_Power)
 
 #
 
